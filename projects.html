@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project Experiences</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Home Page</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+							
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Project Experiences</h2>
+								<p>A showcase of both my team and personal engineering projects.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">Quadcopters</h3>
+									<p>I've built two quadcopters over the course of six months with two different teams. The first was a simple quadcopter that would partcipate in a competition with 38 teams to see which quadcopter can be piloted through an obstacle course the fastest. </p>
+
+									<p>The second one I built during my winter quarter and was more based on electronics along with programming them. Although it was also manually piloted, the color and distance detection that would lead to a specific payload (ball) being dropped from the basket was fully autonomous.  </p>
+
+									<section class="features">
+										<article>
+											<h3 class="major">Fall Quarter Quadcopter</h3>
+
+											<a href="#" class="image"><img src="images/FinalDrone1.JPG" alt="" /></a>
+											<h3 class="major">Chassis</h3>
+										
+
+											<a href="#" class="image"><img src="images/D1ChassisRequirments.JPG" alt="" /></a>
+											<h3 class="major">Chassis Dimensions</h3>
+								
+
+											<a href="#" class="image"><img src="images/D1WiringSchematic.JPG" alt="" /></a>
+											<a href="#" class="image"><img src="images/D1ElectronicsLayout.JPG" alt="" /></a>
+											
+											<h3 class="major">Electronics Layout and Wiring Schematic</h3>
+											<p>Wiring Schematic done in Draw.io and Electronics layout done in Solidworks Sketch.</p>
+
+											<a href="#" class="image"><img src="images/DroneFire.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/BlownESC.jpeg" alt="" /></a>
+											<a href="#" class="image"><img src="images/BlownChassis.jpg" alt="" /></a>
+											<h3 class="major">Faulty ESC Fire</h3>
+											<p>This happened TWO days before compeititon during a final test flight. Wiring and Power Distribution was done properly (checked by lab advisors), explosion was due to faulty motor speed controller made by manufacturer.</p>
+
+											<a href="#" class="image"><img src="images/D1CompPic.jpeg" alt="" /></a>
+											<h3 class="major">Final Competition (Top 5)</h3>
+											<p>After repairing chassis, replacing blown ESC, rewiring electronics, and recalibrating motors, we were able to place top 5 in the competiton obstacle course.</p>
+											
+										</article>
+
+										<article>
+											<h3 class="major">Winter Quarter Quadcopter</h3>
+
+											<a href="#" class="image"><img src="images/D2ChassisElec.JPG" alt="" /></a>
+											<h3 class="major">Solidworks Mode w/ Electronics</h3>
+											
+
+											<a href="#" class="image"><img src="images/D2Schematic.JPG" alt="" /></a>
+											<h3 class="major">Wiring Schematic</h3>
+									
+
+											<a href="#" class="image"><img src="images/Electronics.jpg" alt="" /></a>
+											<h3 class="major">Electronics Testing</h3>
+											<p>Tested Pixy Camera to ensure it detected blue and red balls. Ensured that ultrasonic sensors and camera caused correct servo to rotate. </p>
+
+											<a href="#" class="image"><img src="images/QuadAlgorithm.jpg" alt="" /></a>
+											<h3 class="major">Arduino Code Flowchart</h3>
+											<p>Ultrasonic Sensors send values that Arduino uses to calculate distance. Parameters so that each ball drops is that paper sheet must be within 120 cm and a certain color.</p>
+
+											<a href="#" class="image"><img src="images/D2DroneCodeSnippet.JPG" alt="" /></a>
+											<h3 class="major">Arduino Code Snippet</h3>
+											<p>Initial Problem: If both colored paper sheets where in the same frame of camera, we only want it to drop ball, that being the color of the closest sheet. We fixed this by saving the color signature of the block first detected by camera, since that would be the closest.</p>
+
+											<a href="#" class="image"><img src="images/D2ArielV.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/D2Final1.jpg" alt="" /></a>
+											<h3 class="major">Final Drone</h3>
+											<p>Competition was cancelled due to COVID</p>
+
+										</article>
+
+									</section>
+
+									<h3 class="major">Maze Solving Robot</h3>
+									<p>During summer quarantine, I gathered parts from past IEEE workshops to build a robot that uses bump switches to navigate obstacles such as walls and corners. I used a Texas Instruments MSP432P401R LaunchPad as the microcontroller for the robot.  </p>
+
+									<section class="features">
+										<article>
+											
+											<h3 class="major">Manufacturing</h3>
+											<a href="#" class="image"><img src="images/LineIRSensor.jpg" alt="" /></a>
+											<p>Soldered pins to line IR Sensor used to follow colored path (black electric tape)</p>
+
+											<a href="#" class="image"><img src="images/MazeSolvTable.jpg" alt="" /></a>
+											<p>Soldered Components and additonal pins to microcontrollers, crimped wires and soldered them to bump switches and motors, covered connections in shrink tube.</p>
+
+											<a href="#" class="image"><img src="images/MazeSolvProg.jpg" alt="" /></a>
+											<p>Mounted Motor Driver and Power Distribution Board (Black) to Chassis.</p>
+
+
+										</article>
+
+										<article>
+											<h3 class="major">Motor Control Code Snippet</h3>
+											<a href="#" class="image"><img src="images/MazeSolvCodeSnip.JPG" alt="" /></a>
+											<p>Contains motor initialization (goes forward and slighty turns overtime as soon as its powered on). Loop contains all six if-else statements for each motor (only 2 are pictured). Programmed so that the closest the bump switch is to the center, the longer the delay which allows for a larger turn. This is because if the bump switches in the middle were pushed, that means their is a wall directly in front of robot. </p>
+
+											<h3 class="major">Final Build</h3>
+											<a href="#" class="image"><img src="images/MazeSolv1.jpg" alt="" /></a>
+							
+										</article>
+
+									</section>
+
+								<h3 class="major">UCI FSAE Electric Racecar - Electriconics Subteam</h3>
+								<p> Dashboard Circuit (DASH) </p>
+
+								<p> Central Control Module Interface (CCMI) </p>
+
+								<section class="features">
+									<article>
+										
+										<h3 class="major">DASH</h3>
+										<a href="#" class="image"><img src="images/DASHSchem.JPG" alt="" /></a>
+										<a href="#" class="image"><img src="images/DASHSchem1.JPG" alt="" /></a>
+										<h3 class="major">Schematic</h3>
+										<p></p>
+
+										<h3 class="major">DASH PCB Layout</h3>
+										<a href="#" class="image"><img src="images/DASHPCB.JPG" alt="" /></a>
+										<p>Descrip.</p>
+
+										<h3 class="major">DASH Manufactured PCB</h3>
+										<a href="#" class="image"><img src="images/DASHManuf.JPG" alt="" /></a>
+										<p>Descrip.</p>
+
+									</article>
+
+									<article>
+										<h3 class="major">CCMI</h3>
+										<a href="#" class="image"><img src="images/CCMISchem1.JPG" alt="" /></a>
+										<a href="#" class="image"><img src="images/CCMISchem2.JPG" alt="" /></a>
+										<h3 class="major">CCMI Schematic</h3>
+										<p>Descrip.</p>
+
+										<a href="#" class="image"><img src="images/CCMPCB.JPG" alt="" /></a>
+										<h3 class="major">CCMI PCB Layout</h3>
+										<p>Descrip.</p>
+
+										<a href="#" class="image"><img src="images/CCMProto.JPG" alt="" /></a>
+										<h3 class="major">CCMI Protyping</h3>
+										<p>Descrip.</p>
+
+										<h3 class="major">CCMI Simulation and Verification</h3>
+										<a href="#" class="image"><img src="images/CCMSim1.JPG" alt="" /></a>
+										<p>Descrip.</p>
+										<a href="#" class="image"><img src="images/CCMSim2.JPG" alt="" /></a>
+										<p>Descrip.</p>
+										<a href="#" class="image"><img src="images/CCMSim3.JPG" alt="" /></a>
+										<p>Descrip.</p>
+
+
+									</article>
+
+								</section>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+						
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Santa Ana, CA 92704
+								</li>
+								<li class="icon solid fa-envelope"><a href="#">emateosl@uci.edu</a></li>
+								<li class="icon brands fa-linkedin"><a href="#">https://www.linkedin.com/in/edwin-mateos-a92472184/</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Edwin Mateos</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
