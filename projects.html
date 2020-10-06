@@ -78,11 +78,15 @@
 											<a href="#" class="image"><img src="images/BlownESC.jpeg" alt="" /></a>
 											<a href="#" class="image"><img src="images/BlownChassis.jpg" alt="" /></a>
 											<h3 class="major">Faulty ESC Fire</h3>
-											<p>This happened TWO days before compeititon during a final test flight. Wiring and Power Distribution was done properly (checked by lab advisors), explosion was due to faulty motor speed controller made by manufacturer.</p>
+											<p>This happened TWO days before compeititon during a final test flight.
+												 Wiring and Power Distribution was done properly (checked by lab advisors),
+												  explosion was due to faulty motor speed controller made by manufacturer.</p>
 
 											<a href="#" class="image"><img src="images/D1CompPic.jpeg" alt="" /></a>
 											<h3 class="major">Final Competition (Top 5)</h3>
-											<p>After repairing chassis, replacing blown ESC, rewiring electronics, and recalibrating motors, we were able to place top 5 in the competiton obstacle course.</p>
+											<p>After repairing chassis, replacing blown ESC, rewiring electronics, 
+												and recalibrating motors, we were able to place top 5 in the 
+												competiton obstacle course.</p>
 											
 										</article>
 
@@ -99,20 +103,27 @@
 
 											<a href="#" class="image"><img src="images/Electronics.jpg" alt="" /></a>
 											<h3 class="major">Electronics Testing</h3>
-											<p>Tested Pixy Camera to ensure it detected blue and red balls. Ensured that ultrasonic sensors and camera caused correct servo to rotate. </p>
+											<p>Tested Pixy Camera to ensure it detected blue and red objects.
+											 Ensured that ultrasonic sensors and camera caused corresponding servos to rotate. </p>
 
 											<a href="#" class="image"><img src="images/QuadAlgorithm.jpg" alt="" /></a>
 											<h3 class="major">Arduino Code Flowchart</h3>
-											<p>Ultrasonic Sensors send values that Arduino uses to calculate distance. Parameters so that each ball drops is that paper sheet must be within 120 cm and a certain color.</p>
+											<p>Ultrasonic sensors and camera module provide Arduino with values to determine color and distance.
+											   The Arduino then checks if the values meet the given parameters: The object is either blue or red AND 
+											   it is within 120cm.
+											</p>
 
 											<a href="#" class="image"><img src="images/D2DroneCodeSnippet.JPG" alt="" /></a>
 											<h3 class="major">Arduino Code Snippet</h3>
-											<p>Initial Problem: If both colored paper sheets where in the same frame of camera, we only want it to drop ball, that being the color of the closest sheet. We fixed this by saving the color signature of the block first detected by camera, since that would be the closest.</p>
+											<p>Initial Problem: If both colored paper sheets where in the same camera frame, 
+												we only want it to drop one ball, which would be that of the same color as the closest sheet. 
+												I fixed this by saving the color signature of the block(object) first detected by the camera, 
+												since that would be the closest.</p>
 
 											<a href="#" class="image"><img src="images/D2ArielV.jpg" alt="" /></a>
 											<a href="#" class="image"><img src="images/D2Final1.jpg" alt="" /></a>
 											<h3 class="major">Final Drone</h3>
-											<p>Competition was cancelled due to COVID</p>
+											<p>Competition was cancelled due to COVID. However, we still fully completed the quadcopter.</p>
 
 										</article>
 
@@ -140,7 +151,12 @@
 										<article>
 											<h3 class="major">Motor Control Code Snippet</h3>
 											<a href="#" class="image"><img src="images/MazeSolvCodeSnip.JPG" alt="" /></a>
-											<p>Contains motor initialization (goes forward and slighty turns overtime as soon as its powered on). Loop contains all six if-else statements for each motor (only 2 are pictured). Programmed so that the closest the bump switch is to the center, the longer the delay which allows for a larger turn. This is because if the bump switches in the middle were pushed, that means their is a wall directly in front of robot. </p>
+											<p>Contains motor initialization (goes forward and slighty turns overtime
+												 as soon as its powered on). Loop contains all six if-else statements, one 
+												 for each motor (only 2 if-else statements are pictured above). Programmed 
+												 so that the closer the bump switch is to the center, the longer the delay would be,
+											     allowing for a larger turn. This is because if the bump switches in the middle
+											    were pushed, their is a wall directly in front of the robot, so it would need to turn more. </p>
 
 											<h3 class="major">Final Build</h3>
 											<a href="#" class="image"><img src="images/MazeSolv1.jpg" alt="" /></a>
@@ -150,52 +166,47 @@
 									</section>
 
 								<h3 class="major">UCI FSAE Electric Racecar - Electronics Subteam</h3>
-								<p> Dashboard Circuit (DASH) </p>
+							
 
-								<p> Central Control Module Interface (CCMI) </p>
+								<p>The Central Control Module Interface (CCMI) is the PCB intended to provide
+								a platform for our main Hercules Microcontroller. The CCM is the central computing
+							unit for the car, it takes in safety information signals from the battery box, sends data to dashboard
+							to inform driver of any faults or high voltages. It controls the fans to cool off battery, sends signals
+					        to motor controllers, and controls Ready to Drive Sound (sound from a speaker that indicates car is safe to drive). </p>
 
 								<section class="features">
+									
 									<article>
-										
-										<h3 class="major">DASH</h3>
-										<a href="#" class="image"><img src="images/DASHSchem.JPG" alt="" /></a>
-										<a href="#" class="image"><img src="images/DASHSchem1.JPG" alt="" /></a>
-										<h3 class="major">Schematic</h3>
-										<p></p>
-
-										<h3 class="major">DASH PCB Layout</h3>
-										<a href="#" class="image"><img src="images/DASHPCB.JPG" alt="" /></a>
-										<p>Descrip.</p>
-
-										<h3 class="major">DASH Manufactured PCB</h3>
-										<a href="#" class="image"><img src="images/DASHManuf.JPG" alt="" /></a>
-										<p>Descrip.</p>
-
-									</article>
-
-									<article>
-										<h3 class="major">CCMI</h3>
+										<h3 class="major">CCMI Schematic</h3>
 										<a href="#" class="image"><img src="images/CCMISchem1.JPG" alt="" /></a>
 										<a href="#" class="image"><img src="images/CCMISchem2.JPG" alt="" /></a>
-										<h3 class="major">CCMI Schematic</h3>
-										<p>Descrip.</p>
+										<p>CCMI schematic is made with multiple components.</p>
 
-										<a href="#" class="image"><img src="images/CCMPCB.JPG" alt="" /></a>
 										<h3 class="major">CCMI PCB Layout</h3>
-										<p>Descrip.</p>
+										<a href="#" class="image"><img src="images/CCMPCB.JPG" alt="" /></a>
+										<p>Designed by last year's team.</p>
 
-										<a href="#" class="image"><img src="images/CCMProto.JPG" alt="" /></a>
+										<h3 class="major">Manufactured CCMI PCB</h3>
+										<a href="#" class="image"><img src="images/CCMIManuf1.JPG" alt="" /></a>
+										<a href="#" class="image"><img src="images/CCMIManuf2.JPG" alt="" /></a>
+										<p>Made by last year's team.</p>
+
+
+							     	</article>
+								 
+									<article>
 										<h3 class="major">CCMI Protyping</h3>
-										<p>Descrip.</p>
+										<a href="#" class="image"><img src="images/CCMProto.JPG" alt="" /></a>
 
 										<h3 class="major">CCMI Simulation and Verification</h3>
 										<a href="#" class="image"><img src="images/CCMSim1.JPG" alt="" /></a>
-										<p>Descrip.</p>
+										<p>Each voltage divider should step down 5V input to a 3.3 V output. Successful.</p>
 										<a href="#" class="image"><img src="images/CCMSim2.JPG" alt="" /></a>
-										<p>Descrip.</p>
+										<p>Eeach LED should be turned on with their respective voltages. Successful.</p>
 										<a href="#" class="image"><img src="images/CCMSim3.JPG" alt="" /></a>
-										<p>Descrip.</p>
-
+										<p>Linear Regular should output 5V and 5A. Successful.</p>
+										<a href="#" class="image"><img src="images/CCMSim4.JPG" alt="" /></a>
+										<p>Drain acts as ground so the diode connected to NMOS should be off. Successful.</p>
 
 									</article>
 
